@@ -50941,34 +50941,34 @@
 	<spawn centerx="33208" centery="31714" centerz="13" radius="3">
 		<monster name="hellfire fighter" x="0" y="-3" z="13" spawntime="240" />
 		<monster name="hellfire fighter" x="3" y="1" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="-1" y="2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="2" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33176" centery="31715" centerz="13" radius="3">
-		<monster name="massive fire elemental" x="-1" y="-2" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="0" y="2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="-2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="0" y="2" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33216" centery="31715" centerz="13" radius="3">
-		<monster name="massive fire elemental" x="-2" y="0" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="3" y="1" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-2" y="0" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="3" y="1" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33224" centery="31716" centerz="13" radius="3">
-		<monster name="massive fire elemental" x="1" y="-3" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="-1" y="0" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="1" y="-3" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="0" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="32398" centery="31717" centerz="13" radius="1">
 		<monster name="dragon lord" x="0" y="0" z="13" spawntime="900" />
 	</spawn>
 	<spawn centerx="33185" centery="31717" centerz="13" radius="3">
 		<monster name="hellfire fighter" x="-2" y="-1" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="0" y="2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="0" y="2" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33192" centery="31718" centerz="13" radius="2">
 		<monster name="hellfire fighter" x="0" y="1" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33199" centery="31718" centerz="13" radius="3">
-		<monster name="massive fire elemental" x="-1" y="-2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="-2" z="13" spawntime="240" />
 		<monster name="hellfire fighter" x="2" y="-2" z="13" spawntime="240" />
-		<monster name="massive fire elemental" x="-1" y="2" z="13" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="2" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="32523" centery="31721" centerz="13" radius="5">
 		<monster name="ghoul" x="-4" y="-1" z="13" spawntime="800" />
@@ -58545,11 +58545,11 @@
 		<monster name="hand of cursed fate" x="1" y="7" z="15" spawntime="240" />
 	</spawn>
 	<spawn centerx="33097" centery="31759" centerz="15" radius="10">
-		<monster name="massive fire elemental" x="-1" y="-6" z="15" spawntime="240" />
+		<monster name="hellfire fighter" x="-1" y="-6" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="1" y="-4" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="-3" y="-3" z="15" spawntime="240" />
 		<monster name="demon" x="5" y="-2" z="15" spawntime="240" />
-		<monster name="massive fire elemental" x="5" y="2" z="15" spawntime="240" />
+		<monster name="hellfire fighter" x="5" y="2" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="-5" y="4" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="2" y="5" z="15" spawntime="240" />
 	</spawn>
@@ -58663,9 +58663,9 @@
 	<spawn centerx="33180" centery="31783" centerz="15" radius="10">
 		<monster name="warlock" x="-6" y="-5" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="1" y="-3" z="15" spawntime="240" />
-		<monster name="massive fire elemental" x="-9" y="-2" z="15" spawntime="240" />
+		<monster name="hellfire fighter" x="-9" y="-2" z="15" spawntime="240" />
 		<monster name="demon" x="-2" y="0" z="15" spawntime="240" />
-		<monster name="massive fire elemental" x="-6" y="2" z="15" spawntime="240" />
+		<monster name="hellfire fighter" x="-6" y="2" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="1" y="2" z="15" spawntime="240" />
 		<monster name="diabolic imp" x="6" y="4" z="15" spawntime="240" />
 		<monster name="warlock" x="-4" y="5" z="15" spawntime="240" />

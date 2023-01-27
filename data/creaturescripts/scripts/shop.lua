@@ -101,12 +101,12 @@ function init()
 	-- })
 	
 	
-	category1.addItem(50, 6561, 1, "Ceremonial Ankh", "gives you all blessings")
+	category1.addItem(100, 6561, 1, "Ceremonial Ankh", "gives you all blessings")
 	category1.addItem(20, 5908, 1, "Obsidian Knife", "")
 	category1.addItem(200, 5797, 1, "Dice", "")
-	category1.addItem(100, 6549, 1, "Green Djinn Access", "The magical powder will bless you with the power to convince the green djinns")
-	category1.addItem(100, 6551, 1, "Blue Djinn Access", "The magical powder will bless you with the power to convince the blue djinns")
-	category1.addItem(100, 3252, 1, "Postman Access", "The magical horn will grant you the trustworthy postman rank")
+	category1.addItem(150, 6549, 1, "Green Djinn Access", "The magical powder will bless you with the power to convince the green djinns")
+	category1.addItem(150, 6551, 1, "Blue Djinn Access", "The magical powder will bless you with the power to convince the blue djinns")
+	category1.addItem(200, 3252, 1, "Postman Access", "The magical horn will grant you the trustworthy postman rank")
 	
 	category2.addOutfit(150, {
 		mount=0,

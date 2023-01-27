@@ -10,6 +10,12 @@ combat:setArea(createCombatArea(area))
 
 function onGetFormulaValues(player, level, maglevel)
 	local base = 160
+	if (player:getName() == 'ADM Dragonas') then
+		base = 800
+	end
+	if (player:getName() == 'Sephirot Lokoo') then
+		base = 250
+	end
 	local variation = 20
 	
 	local formula = 3 * maglevel + (2 * level)

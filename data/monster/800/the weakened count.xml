@@ -38,7 +38,6 @@
 	</immunities>
 	<loot>
 		<item id="3031" countmax="98" chance="400" /><!-- gold coin -->
-		<item id="7924" chance="1000" /><!-- the ring of the count -->
 		<item id="3279" chance="23" /><!-- war hammer -->
 	</loot>
 </monster>

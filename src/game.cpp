@@ -2065,11 +2065,11 @@ void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uin
 	}
 
 	bool isHotkey = (fromPos.x == 0xFFFF && fromPos.y == 0 && fromPos.z == 0);
-	if (!g_config.getBoolean(ConfigManager::AIMBOT_HOTKEY_ENABLED)) {
-		if (creature->getPlayer() || isHotkey) {
+	if (!g_config.getBoolean(ConfigManager::AIMBOT_HOTKEY_ENABLED) && isHotkey) {
+		//if (creature->getPlayer() || isHotkey) {
 			player->sendCancelMessage(RETURNVALUE_DIRECTPLAYERSHOOT);
 			return;
-		}
+		//}
 	}
 
 	Thing* thing = internalGetThing(player, fromPos, fromStackPos, spriteId, STACKPOS_USEITEM);

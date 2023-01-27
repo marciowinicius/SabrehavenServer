@@ -37,7 +37,6 @@
 		<voice sentence="Yooodelaaaheeeheee!" />
 	</voices>
 	<loot>
-		<item id="3553" countmax="1" chance="1" /> <!-- bunnyslippers -->
 		<item id="3031" countmax="10" chance="600" /> <!-- a gold coin -->
 		<item id="3031" countmax="20" chance="300" /> <!-- a gold coin -->
 		<item id="3582" countmax="6" chance="350" /> <!-- ham -->

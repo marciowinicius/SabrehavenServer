@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# quentin.npc: Datenbank für den Mönch Quentin
+# quentin.npc: Datenbank fï¿½r den Mï¿½nch Quentin
 
 Name = "Romir"
 Outfit = (153,19-48-67-126-3)
@@ -25,7 +25,7 @@ VANISH,!                   -> "Bye, %N."
 "do","you","sell" -> *
 "do","you","have" -> *
 
-"rune"         -> "I sell blank runes and spell runes."
+"rune"         -> "I sell blank runes ."
 "life","fluid" -> Type=2874, Data=11, Amount=1, Price=60, "Do you want to buy life fluid for %P gold?", Topic=2
 "mana","fluid" -> Type=2874, Data=10, Amount=1, Price=55, "Do you want to buy mana fluid for %P gold?", Topic=2
 "blank","rune" -> Type=3147, Amount=1, Price=10, "Do you want to buy a blank rune for %P gold?", Topic=1
@@ -74,6 +74,5 @@ Topic=8,"yes",CountMoney>=Price -> "Here you are. There is a deposit of 5 gold o
 Topic=8,"yes"                   -> "Come back, when you have enough money."
 Topic=8                         -> "Hmm, but next time."
 
-@"gen-t-runes-free-s.ndb"
 @"gen-t-wands-prem-s.ndb"
 }

@@ -311,4 +311,20 @@
 	<monster name="red hat cyclops" file="customs/red hat cyclops.xml" />
 	<monster name="blood graw" file="customs/blood graw.xml" />
 	<monster name="fire spider" file="customs/fire spider.xml" />
+
+	<!-- NEWS -->
+	<monster name="grim reaper" file="grimreaper.xml" />
+	<monster name="The Bloodtusk" file="thebloodtusk.xml"/>
+	<monster name="Hell Hole" file="hellhole.xml"/>
+	<monster name="Demon Outcast" file="demonoutcast.xml"/>
+	<monster name="Wisp" file="wisp.xml"/>
+	<monster name="hellspawn" file="hellspawn.xml"/>
+	<monster name="frost dragon hatchling" file="frostdragonhatchiling.xml"/>
+	<monster name="undead gladiator" file="undeadgladiator.xml"/>
+	<monster name="medusa" file="medusa.xml"/>
+	<monster name="sea serpent" file="seaserpent.xml"/>
+	<monster name="Leviathan" file="leviathan.xml"/>
+	<monster name="Deaththrower" file="deaththrower.xml"/>
+	<monster name="eye of the seven" file="eyeoftheseven.xml"/>
+	<monster name="Lord of the Elements" file="lordoftheelements.xml"/>
 </monsters>

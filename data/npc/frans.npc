@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# frans.npc: Datenbank für den Magieladen-Verkäufer Frans
+# frans.npc: Datenbank fï¿½r den Magieladen-Verkï¿½ufer Frans
 
 Name = "Frans"
 Outfit = (0,3114)
@@ -56,6 +56,5 @@ Topic=2,"yes",CountMoney>=Price -> "And here it isssss! Almost like magiiiic, is
 Topic=2,"yes"                   -> "Sorry, too many buttonssss and not enough gold in your pursssse."
 Topic=2                         -> "Better not annoy a FRANS if you don't want to deeeeal with him!"
 
-@"gen-t-runes-free-s.ndb"
 @"gen-t-wands-free-s.ndb"
 }

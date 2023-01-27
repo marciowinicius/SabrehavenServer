@@ -1554,82 +1554,28 @@ bool ConjureSpell::conjureItem(Creature* creature) const
 		return false;
 	}
 
-	const uint32_t conjureCost = getManaCost(player);
-	const uint32_t soulCost = getSoulCost();
-
-	if (reagentId != 0) {
-		bool foundReagent = false;
-
-		Item* item = player->getInventoryItem(CONST_SLOT_LEFT);
-		if (item && item->getID() == reagentId) {
-			foundReagent = true;
-
-			// left arm conjure
-			int32_t index = player->getThingIndex(item);
-			g_game.internalRemoveItem(item);
-
-			Item* newItem = Item::CreateItem(conjureId, conjureCount);
-			if (!newItem) {
-				return false;
-			}
-
-			ReturnValue ret = g_game.internalAddItem(player, newItem, index);
-			if (ret != RETURNVALUE_NOERROR) {
-				delete newItem;
-				return false;
-			}
-
-			g_game.startDecay(newItem);
-
-			Spell::postCastSpell(player, conjureCost, soulCost);
-		}
-
-		item = player->getInventoryItem(CONST_SLOT_RIGHT);
-		if (item && item->getID() == reagentId && player->getMana() >= conjureCost) {
-			foundReagent = true;
-
-			// right arm conjure
-			int32_t index = player->getThingIndex(item);
-			g_game.internalRemoveItem(item);
-
-			Item* newItem = Item::CreateItem(conjureId, conjureCount);
-			if (!newItem) {
-				return false;
-			}
-
-			ReturnValue ret = g_game.internalAddItem(player, newItem, index);
-			if (ret != RETURNVALUE_NOERROR) {
-				delete newItem;
-				return false;
-			}
-
-			g_game.startDecay(newItem);
-
-			Spell::postCastSpell(player, conjureCost, soulCost);
-		}
-
-		if (!foundReagent) {
-			player->sendCancelMessage(RETURNVALUE_YOUNEEDAMAGICITEMTOCASTSPELL);
-			g_game.addMagicEffect(player->getPosition(), CONST_ME_POFF);
-			return false;
-		}
-	} else {
-		Item* newItem = Item::CreateItem(conjureId, conjureCount);
-		if (!newItem) {
-			return false;
-		}
-
-		ReturnValue ret = g_game.internalPlayerAddItem(player, newItem);
-		if (ret != RETURNVALUE_NOERROR) {
-			delete newItem;
-			return false;
-		}
-
-		g_game.startDecay(newItem);
-		Spell::postCastSpell(player, conjureCost, soulCost);
+	if (reagentId != 0 && !player->removeItemOfType(reagentId, 1, -1)) {
+		player->sendCancelMessage(RETURNVALUE_YOUNEEDAMAGICITEMTOCASTSPELL);
+		g_game.addMagicEffect(player->getPosition(), CONST_ME_POFF);
+		return false;
 	}
 
-	postCastSpell(player, true, false);
+	Item* newItem = Item::CreateItem(conjureId, conjureCount);
+	if (!newItem) {
+		return false;
+	}
+
+	ReturnValue ret = g_game.internalPlayerAddItem(player, newItem);
+	if (ret != RETURNVALUE_NOERROR) {
+		player->sendCancelMessage(ret);
+		g_game.addMagicEffect(player->getPosition(), CONST_ME_POFF);
+		delete newItem;
+		return false;
+	}
+
+	g_game.startDecay(newItem);
+
+	postCastSpell(player);
 	g_game.addMagicEffect(player->getPosition(), CONST_ME_MAGIC_RED);
 	return true;
 }

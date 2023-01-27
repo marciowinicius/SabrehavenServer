@@ -13421,8 +13421,8 @@ Attributes  = {Weight=40,SlotType=RING}
 TypeID      = 3007
 Name        = "a crystal ring"
 Description = "The magical ring will convert the gold you touch"
-Flags       = {Take,ShowDetail}
-Attributes  = {Weight=90,SlotType=RING,TotalUses=100}
+Flags       = {Take}
+Attributes  = {Weight=90,SlotType=RING}
 
 TypeID      = 3008
 Name        = "a crystal necklace"

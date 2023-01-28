@@ -19158,12 +19158,12 @@ Attributes  = {Capacity=7,ExpireTarget=4213,TotalExpireTime=1800}
 
 TypeID      = 4213
 Name        = "a slain bonebeast"
-Flags       = {Corpse,Expire}
+Flags       = {Container,Corpse,Expire}
 Attributes  = {ExpireTarget=4214,TotalExpireTime=1800}
 
 TypeID      = 4214
 Name        = "a slain bonebeast"
-Flags       = {Corpse,Expire}
+Flags       = {Container,Corpse,Expire}
 Attributes  = {ExpireTarget=0,TotalExpireTime=1800}
 
 TypeID      = 4215
@@ -25401,6 +25401,36 @@ Name        = "a dead tortoise"
 Flags       = {Take,Corpse,Expire}
 Attributes  = {Weight=1000,ExpireTarget=0,TotalExpireTime=600}
 
+TypeID      = 8123
+Name        = "a dead bog raider"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Capacity=6,Weight=1000,FluidSource=BLOOD,ExpireTarget=8124,TotalExpireTime=900}
+
+TypeID      = 8124
+Name        = "a dead bog raider"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Weight=1000,ExpireTarget=8125,TotalExpireTime=600}
+
+TypeID      = 8125
+Name        = "a dead bog raider"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Weight=1000,ExpireTarget=0,TotalExpireTime=600}
+
+TypeID      = 8127
+Name        = "a dead grim reaper"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Capacity=6,Weight=1000,FluidSource=BLOOD,ExpireTarget=8128,TotalExpireTime=900}
+
+TypeID      = 8128
+Name        = "a dead grim reaper"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Weight=1000,ExpireTarget=8129,TotalExpireTime=600}
+
+TypeID      = 8129
+Name        = "a dead grim reaper"
+Flags       = {Container,Take,Corpse,Expire}
+Attributes  = {Weight=1000,ExpireTarget=0,TotalExpireTime=600}
+
 TypeID      = 5627
 Name        = "a dead thornback tortoise"
 Flags       = {Container,Corpse,Expire}
@@ -28792,22 +28822,22 @@ Flags       = {Take,Corpse,Expire}
 Attributes  = {Weight=1000,ExpireTarget=0,TotalExpireTime=600}
 
 TypeID      = 6347
-Name        = "remains of a spectre"
+Name        = "remains"
 Flags       = {Container,Unmove,Corpse,Expire}
 Attributes  = {Capacity=10,ExpireTarget=6348,TotalExpireTime=10}
 
 TypeID      = 6348
-Name        = "remains of a spectre"
+Name        = "remains"
 Flags       = {Container,Take,Corpse,Expire}
 Attributes  = {Capacity=10,Weight=10000,ExpireTarget=6349,TotalExpireTime=900}
 
 TypeID      = 6349
-Name        = "remains of a spectre"
+Name        = "remains"
 Flags       = {Container,Take,Corpse,Expire}
 Attributes  = {Capacity=10,Weight=8000,ExpireTarget=6350,TotalExpireTime=600}
 
 TypeID      = 6350
-Name        = "remains of a spectre"
+Name        = "remains"
 Flags       = {Take,Corpse,Expire}
 Attributes  = {Weight=1000,ExpireTarget=0,TotalExpireTime=600}
 
@@ -34206,3 +34236,33 @@ TypeID      = 17161
 Name        = "a blood graw"
 Flags       = {Container,Unmove,Corpse,Expire}
 Attributes  = {Capacity=10,FluidSource=BLOOD,ExpireTarget=17157,TotalExpireTime=10}
+
+TypeID      = 17162
+Name        = "avalon shield"
+Description = "Fast regen"
+Flags       = {Take,Shield}
+Attributes  = {Weight=1200,Defense=35,HealthGain=1,HealthTicks=2000,ManaGain=6,ManaTicks=2000}
+
+TypeID      = 17163
+Name        = "avalon boots"
+Description = "Fast regen"
+Flags       = {Take,Shield}
+Attributes  = {Weight=800,SlotType=FEET,SpeedBoost=10,HealthGain=1,HealthTicks=2000,ManaGain=6,ManaTicks=2000}
+
+TypeID      = 8061
+Name        = "a skullcracker armor"
+Description = "5% physical"
+Flags       = {Take,Armor,ShowDetail}
+Attributes  = {Weight=1200,SlotType=BODY,ArmorValue=14,Vocations=8,AbsorbPhysical=5}
+
+TypeID      = 8063
+Name        = "a paladin armor"
+Description = "distance +2"
+Flags       = {Take,Armor,ShowDetail}
+Attributes  = {Weight=1000,SlotType=BODY,ArmorValue=12,Vocations=4,DistanceBoost=2}
+
+TypeID      = 8043
+Name        = "focus cape"
+Description = "magic +1"
+Flags       = {Take,Armor,ShowDetail}
+Attributes  = {Weight=600,SlotType=BODY,ArmorValue=9,Vocations=3,MagicBoost=1}

@@ -1,48 +1,66 @@
+-- Custom
+clientVersion = 800
+knightCloseAttackDamageIncreasePercent = -1
+paladinRangeAttackDamageIncreasePercent = -1
+-- Min/Max rate spawn is a multiplication of the map spawntime in spawns.xml Regular monster spawn time is 600. The formula would be randomValue = random(600*100, 600*200) which varies between 60s and 120s
+minRateSpawn = 100
+maxRateSpawn = 200
+corpseOwnerEnabled = false
+uhTrap = true
+ropeSpotBlock = true
+showMonsterLoot = true
+blockHeight = true
+dropItems = false
+marketOfferDuration = 7 * 24 * 60 * 60
+premiumToCreateMarketOffer = false
+
 -- Combat settings
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
 worldType = "pvp"
-hotkeyAimbotEnabled = true
-protectionLevel = 1
+hotkeyAimbotEnabled = false
+protectionLevel = 15
 pzLocked = 60000
 removeChargesFromRunes = true
 stairJumpExhaustion = 0
 experienceByKillingPlayers = false
-expFromPlayersLevelRange = 75
+expFromPlayersLevelRange = 50
+distanceWeaponsDropOnGround = false
 
 -- Skull System
-banLength = 30 * 24 * 60 * 60
+banLength = 3 * 24 * 60 * 60
 whiteSkullTime = 15 * 60
-redSkullTime = 30 * 24 * 60 * 60
-killsDayRedSkull = 3
-killsWeekRedSkull = 5
-killsMonthRedSkull = 10
-killsDayBanishment = 6
-killsWeekBanishment = 10
-killsMonthBanishment = 20
+redSkullTime = 3 * 24 * 60 * 60
+killsDayRedSkull = 8
+killsWeekRedSkull = 24
+killsMonthRedSkull = 70
+killsDayBanishment = 10
+killsWeekBanishment = 30
+killsMonthBanishment = 90
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "31.220.54.20"
+ip = "127.0.0.1"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
-maxPlayers = 1000
-motd = "Welcome to Sabrehaven!"
-onePlayerOnlinePerAccount = true
+maxPlayers = 0
+motd = "Welcome to DragonsAge!"
+onePlayerOnlinePerAccount = false
 allowClones = false
-serverName = "Sabrehaven"
+serverName = "DragonsAge"
 statusTimeout = 5000
 replaceKickOnLogin = true
-maxPacketsPerSecond = -1
-autoStackCumulatives = false
+maxPacketsPerSecond = 50
+packetCompression = false
+autoStackCumulatives = true
 moneyRate = 1
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
 -- death penalty formula. For the old formula, set it to 10. For
 -- no skill/experience loss, set it to 0.
-deathLosePercent = 10
+deathLosePercent = -1
 
 -- Houses
 houseRentPeriod = "monthly"
@@ -57,22 +75,19 @@ mapName = "map"
 mapAuthor = "CipSoft"
 
 -- MySQL
-mysqlHost = "127.0.0.1"
-mysqlUser = "forgottenserver"
-mysqlPass = "DZpJ+UL+t5OgdC0LhxPaz4ae"
-mysqlDatabase = "forgottenserver"
+mysqlHost = "localhost"
+mysqlUser = "root"
+mysqlPass = "Winicius-1"
+mysqlDatabase = "marcioold"
 mysqlPort = 3306
-mysqlSock = ""
+mysqlSock = "/var/run/mysqld/mysqld.sock"
+passwordType = "sha1"
 
 -- Misc.
 allowChangeOutfit = true
 freePremium = true
 kickIdlePlayerAfterMinutes = 15
-maxMessageBuffer = 4
-showMonsterLoot = false
-blockHeight = false
-dropItems = false
-
+maxMessageBuffer = 8
 
 -- Character Rooking
 -- Level threshold is the level requirement to teleport players back to newbie town
@@ -82,11 +97,11 @@ newbieLevelThreshold = 5
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 1
-rateSkill = 5
-rateLoot = 2
-rateMagic = 2
-rateSpawn = 0
+rateExp = 200
+rateSkill = 50
+rateLoot = 10
+rateMagic = 35
+rateSpawn = 2
 
 -- Monsters
 deSpawnRange = 2
@@ -103,7 +118,7 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "Erikas"
-ownerEmail = "e.kontenis@gmail.com"
-url = "https://sabrehaven.com"
-location = "France"
+ownerName = "Dragonas"
+ownerEmail = ""
+url = "https://dragonsage.com/"
+location = "Brazil"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" race="undead" experience="745" speed="200" manacost="0">
 	<health now="800" max="800"/>
-	<look type="283" corpse="6039"/>
+	<look type="283" corpse="4025"/>
     <targetstrategy nearest="70" weakest="10" mostdamage="10" random="10" />
 	<targetchange interval="4000" chance="10"/>
 	<flags>
@@ -29,7 +29,6 @@
 	<immunities>
 		<immunity fire="1"/>
 		<immunity lifedrain="1"/>
-		
 		<immunity earth="1"/>
 		<immunity invisible="1"/>
 	</immunities>
@@ -38,10 +37,7 @@
 		<voice sentence="Fchu?"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="55" chance="86750"/><!-- gold coin -->
-		<item id="2672" chance="79600"/><!-- dragon ham -->
-		<item id="8900" chance="400"/><!-- spellbook of enlightenment -->
-		<item id="7618" chance="560"/><!-- health potion -->
-		<item id="10578" chance="5000"/><!-- frosty heart -->
+		<item id="3031" countmax="55" chance="86750"/><!-- gold coin -->
+		<item id="3583" chance="79600"/><!-- dragon ham -->
 	</loot>
 </monster>

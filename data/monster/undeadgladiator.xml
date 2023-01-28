@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Undead Gladiator" nameDescription="an undead gladiator" race="undead" experience="800" speed="180" manacost="0">
 	<health now="1000" max="1000"/>
-	<look type="306" corpse="6039"/>
+	<look type="96" corpse="6081"/>
     <targetstrategy nearest="70" weakest="10" mostdamage="10" random="10" />
 	<targetchange interval="4000" chance="10"/>
 	<flags>
@@ -39,23 +39,20 @@
 		<voice sentence="Another foolish adventurer who tries to beat me."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="148" chance="94000"/>	<!-- gold coin -->
-		<item id="2399" countmax="18" chance="16700"/>	<!-- throwing star -->
-		<item id="2419" chance="11280"/>				<!-- scimitar -->
-		<item id="8872" chance="5500"/>					<!-- belted cape -->
-		<item id="10573" chance="5200"/>				<!-- broken gladiator shield -->
-		<item id="2478" chance="4770"/>					<!-- brass legs -->
-		<item id="2465" chance="4550"/>					<!-- brass armor -->
-		<item id="3965" chance="4080"/>					<!-- hunting spear -->
-		<item id="2647" chance="2730"/>					<!-- plate legs -->
-		<item id="2200" chance="2200"/>					<!-- protection amulet -->
-		<item id="2377" chance="1730"/>					<!-- two handed sword -->
-		<item id="2463" chance="1600"/>					<!-- plate armor -->
-		<item id="2490" chance="1320"/>					<!-- dark helmet -->
-		<item id="7618" chance="310"/>					<!-- health potion -->
-		<item id="2430" chance="310"/>					<!-- knight axe -->
+		<item id="3031" countmax="148" chance="94000"/>	<!-- gold coin -->
+		<item id="3287" countmax="18" chance="16700"/>	<!-- throwing star -->
+		<item id="3307" chance="11280"/>				<!-- scimitar -->
+		<item id="3372" chance="4770"/>					<!-- brass legs -->
+		<item id="3359" chance="4550"/>					<!-- brass armor -->
+		<item id="3347" chance="4080"/>					<!-- hunting spear -->
+		<item id="3557" chance="2730"/>					<!-- plate legs -->
+		<item id="3084" chance="2200"/>					<!-- protection amulet -->
+		<item id="3265" chance="1730"/>					<!-- two handed sword -->
+		<item id="3357" chance="1600"/>					<!-- plate armor -->
+		<item id="3384" chance="1320"/>					<!-- dark helmet -->
+		<item id="3318" chance="310"/>					<!-- knight axe -->
 		<item id="5885" chance="190"/>					<!-- flask of warrior's sweat -->
-		<item id="2497" chance="90"/>					<!-- crusader helmet -->
-		<item id="2165" chance="60"/>					<!-- stealth ring -->
+		<item id="3391" chance="90"/>					<!-- crusader helmet -->
+		<item id="3049" chance="60"/>					<!-- stealth ring -->
 	</loot>
 </monster>

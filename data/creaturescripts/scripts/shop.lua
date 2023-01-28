@@ -11,12 +11,13 @@ local SHOP_EXTENDED_OPCODE = 201
 local SHOP_OFFERS = {}
 local SHOP_CALLBACKS = {}
 local SHOP_CATEGORIES = nil
-local SHOP_BUY_URL = "http://otland.net" -- can be empty
-local SHOP_AD = { -- can be nil
-	image = "https://s3.envato.com/files/62273611/PNG%20Blue/Banner%20blue%20468x60.png",
-	url = "http://otclient.ovh",
-	text = ""
-}
+local SHOP_BUY_URL = "https://avalon-old.com.br" -- can be empty
+local SHOP_AD = nil
+--local SHOP_AD = { -- can be nil
+	--image = "https://s3.envato.com/files/62273611/PNG%20Blue/Banner%20blue%20468x60.png",
+	--url = "http://otclient.ovh",
+	--text = ""
+--}
 local MAX_PACKET_SIZE = 50000
 
 --[[ SQL TABLE
@@ -46,36 +47,36 @@ function init()
 		count=1,
 		name="Items"
 	})
-	local category2 = addCategory({
-		type="outfit",
-		name="Outfits",
-		outfit={
-			mount=0,
-			feet=0,
-			legs=0,
-			body=0,
-			type=136,
-			auxType=0,
-			addons=0,
-			head=0,
-			rotating=false
-		}
-	})
-	local category3 = addCategory({
-		type="outfit",
-		name="Mounts",
-		outfit={
-			mount=0,
-			feet=0,
-			legs=0,
-			body=0,
-			type=368,
-			auxType=0,
-			addons=0,
-			head=0,
-			rotating=false
-		}
-	})
+	-- local category2 = addCategory({
+		-- type="outfit",
+		-- name="Outfits",
+		-- outfit={
+		-- 	mount=0,
+		-- 	feet=0,
+		-- 	legs=0,
+		-- 	body=0,
+		-- 	type=136,
+		-- 	auxType=0,
+		-- 	addons=0,
+		-- 	head=0,
+		-- 	rotating=false
+		-- }
+	-- })
+	-- local category3 = addCategory({
+	-- 	type="outfit",
+	-- 	name="Mounts",
+	-- 	outfit={
+	-- 		mount=0,
+	-- 		feet=0,
+	-- 		legs=0,
+	-- 		body=0,
+	-- 		type=368,
+	-- 		auxType=0,
+	-- 		addons=0,
+	-- 		head=0,
+	-- 		rotating=false
+	-- 	}
+	-- })
 	local category4 = addCategory({
 		type="item",
 		item=ItemType(5919):getId(),
@@ -101,36 +102,39 @@ function init()
 	-- })
 	
 	
-	category1.addItem(100, 6561, 1, "Ceremonial Ankh", "gives you all blessings")
+	category1.addItem(250, 17162, 1, "Avalon Shield", "gives you fast regen")
+	category1.addItem(250, 17163, 1, "Avalon Boots", "gives you fast regen")
+	category1.addItem(100, 6561, 1, "Ceremonial Ankh", "gives you all blessings, reduces exp and skills loss when you die")
+	category1.addItem(100, 3057, 1, "Amulet of Loss", "protect you from dropping items when you die")
 	category1.addItem(20, 5908, 1, "Obsidian Knife", "")
 	category1.addItem(200, 5797, 1, "Dice", "")
 	category1.addItem(150, 6549, 1, "Green Djinn Access", "The magical powder will bless you with the power to convince the green djinns")
 	category1.addItem(150, 6551, 1, "Blue Djinn Access", "The magical powder will bless you with the power to convince the blue djinns")
 	category1.addItem(200, 3252, 1, "Postman Access", "The magical horn will grant you the trustworthy postman rank")
 	
-	category2.addOutfit(150, {
-		mount=0,
-		feet=0,
-		legs=0,
-		body=0,
-		type=162,
-		auxType=0,
-		addons=0,
-		head=0,
-		rotating=true
-	}, "Monk", "")
+	-- category2.addOutfit(150, {
+		-- mount=0,
+		-- feet=0,
+		-- legs=0,
+		-- body=0,
+		-- type=162,
+		-- auxType=0,
+		-- addons=0,
+		-- head=0,
+		-- rotating=true
+	-- }, "Monk", "")
 	
-	category3.addOutfit(75, {
-		mount=1,
-		feet=0,
-		legs=0,
-		body=0,
-		type=368,
-		auxType=0,
-		addons=0,
-		head=0,
-		rotating=true
-	}, "Widow Queen", "")
+	-- category3.addOutfit(75, {
+		-- mount=1,
+		-- feet=0,
+		-- legs=0,
+		-- body=0,
+		-- type=368,
+		-- auxType=0,
+		-- addons=0,
+		-- head=0,
+		-- rotating=true
+	-- }, "Widow Queen", "")
 	
 	category4.addItem(3, 5902, 10, "10x Honeycomb", "Some people swear it makes an excellent glue")
 	category4.addItem(3, 5898, 5, "5x Beholder's eye", "")

@@ -35476,7 +35476,7 @@
 		<monster name="serpent spawn" x="2" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32794" centery="32976" centerz="9" radius="4">
-		<monster name="medusa" x="-1" y="-2" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="-2" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="2" y="-1" z="9" spawntime="60" />
 		<monster name="hydra" x="-2" y="1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="1" y="2" z="9" spawntime="60" />
@@ -35512,10 +35512,10 @@
 	</spawn>
 	<spawn centerx="32699" centery="32978" centerz="9" radius="2">
 		<monster name="serpent spawn" x="1" y="-1" z="9" spawntime="60" />
-		<monster name="medusa" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32766" centery="32978" centerz="9" radius="2">
-		<monster name="medusa" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="0" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="0" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32383" centery="32979" centerz="9" radius="3">
@@ -35524,7 +35524,7 @@
 		<monster name="thornback tortoise" x="-2" y="3" z="9" spawntime="600" />
 	</spawn>
 	<spawn centerx="32713" centery="32980" centerz="9" radius="2">
-		<monster name="medusa" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32366" centery="32981" centerz="9" radius="3">
@@ -35534,7 +35534,7 @@
 	</spawn>
 	<spawn centerx="32732" centery="32983" centerz="9" radius="1">
 		<monster name="serpent spawn" x="-1" y="0" z="9" spawntime="60" />
-		<monster name="medusa" x="1" y="0" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32755" centery="32984" centerz="9" radius="1">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
@@ -35546,7 +35546,7 @@
 	</spawn>
 	<spawn centerx="32685" centery="32985" centerz="9" radius="2">
 		<monster name="serpent spawn" x="1" y="-1" z="9" spawntime="60" />
-		<monster name="medusa" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32747" centery="32986" centerz="9" radius="1">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
@@ -35576,27 +35576,27 @@
 	</spawn>
 	<spawn centerx="32760" centery="32992" centerz="9" radius="1">
 		<monster name="serpent spawn" x="-1" y="0" z="9" spawntime="60" />
-		<monster name="medusa" x="1" y="0" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32659" centery="32993" centerz="9" radius="4">
 		<monster name="serpent spawn" x="2" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="-1" y="0" z="9" spawntime="60" />
-		<monster name="medusa" x="2" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="2" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32747" centery="32994" centerz="9" radius="1">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32701" centery="32995" centerz="9" radius="3">
 		<monster name="serpent spawn" x="1" y="-1" z="9" spawntime="60" />
-		<monster name="medusa" x="0" y="0" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32714" centery="32996" centerz="9" radius="2">
 		<monster name="serpent spawn" x="-1" y="-1" z="9" spawntime="60" />
-		<monster name="medusa" x="0" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="0" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32770" centery="32998" centerz="9" radius="2">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
-		<monster name="medusa" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32737" centery="32999" centerz="9" radius="1">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
@@ -35606,7 +35606,7 @@
 	</spawn>
 	<spawn centerx="32683" centery="33001" centerz="9" radius="2">
 		<monster name="serpent spawn" x="-1" y="-1" z="9" spawntime="60" />
-		<monster name="medusa" x="1" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32728" centery="33001" centerz="9" radius="1">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
@@ -35616,10 +35616,10 @@
 	</spawn>
 	<spawn centerx="32767" centery="33007" centerz="9" radius="2">
 		<monster name="serpent spawn" x="0" y="0" z="9" spawntime="60" />
-		<monster name="medusa" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32748" centery="33009" centerz="9" radius="2">
-		<monster name="medusa" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32499" centery="33010" centerz="9" radius="4">
@@ -35628,11 +35628,11 @@
 		<monster name="thornback tortoise" x="3" y="2" z="9" spawntime="600" />
 	</spawn>
 	<spawn centerx="32698" centery="33010" centerz="9" radius="2">
-		<monster name="medusa" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32718" centery="33010" centerz="9" radius="2">
-		<monster name="medusa" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-1" y="-1" z="9" spawntime="60" />
 		<monster name="serpent spawn" x="1" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="32048" centery="31012" centerz="10" radius="3">

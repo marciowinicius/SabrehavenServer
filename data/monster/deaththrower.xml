@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Deaththrower" nameDescription="a deaththrower" race="undead" experience="0" speed="0" manacost="0">
 	<health now="100" max="100"/>
-    <look type="1551" corpse="6039"/>
+    <look typeex="389"/>
     <targetstrategy nearest="70" weakest="10" mostdamage="10" random="10" />
 	<targetchange interval="5000" chance="16"/>
 	<flags>

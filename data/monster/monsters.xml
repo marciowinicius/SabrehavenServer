@@ -327,4 +327,5 @@
 	<monster name="Deaththrower" file="deaththrower.xml"/>
 	<monster name="eye of the seven" file="eyeoftheseven.xml"/>
 	<monster name="Lord of the Elements" file="lordoftheelements.xml"/>
+	<monster name="bog raider" file="bograider.xml"/>
 </monsters>

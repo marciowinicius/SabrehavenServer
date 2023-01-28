@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Eye Of The Seven" nameDescription="an eye of the seven" race="venom" experience="0" speed="0">
 	<health now="100" max="100"/>
-	<look type="109" corpse="6039"/>
+	<look type="109" corpse="6081"/>
     <targetstrategy nearest="70" weakest="10" mostdamage="10" random="10" />
 	<targetchange interval="5000" chance="20"/>
 	<flags>

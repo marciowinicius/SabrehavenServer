@@ -193,9 +193,9 @@ bool MonsterType::createLootContainer(Container* parent, const LootBlock& lootbl
 bool Monsters::loadFromXml(bool reloading /*= false*/)
 {
 	pugi::xml_document doc;
-	pugi::xml_parse_result result = doc.load_file("data/monster/monsters.xml");
+	pugi::xml_parse_result result = doc.load_file("data/monster/creatures.xml");
 	if (!result) {
-		printXMLError("Error - Monsters::loadFromXml", "data/monster/monsters.xml", result);
+		printXMLError("Error - Monsters::loadFromXml", "data/monster/creatures.xml", result);
 		return false;
 	}
 
